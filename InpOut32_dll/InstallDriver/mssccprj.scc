@@ -1,0 +1,5 @@
+SCC = This is a Source Code Control file
+
+[InstallDriver.vcproj]
+SCC_Aux_Path = "\\loft\sourcesafe"
+SCC_Project_Name = "$/inpout32drv.root/inpout32drv/InstallDriver", RGHAAAAA

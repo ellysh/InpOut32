@@ -1,0 +1,12 @@
+From Verison 1.0.0.7, InpOut provides basic DLPortIO compatibility, for use with LCDSmartie etc.
+
+It is however, not fully tested as my development machines (DFI motherboard) does not have a parallel port!!!
+To use with LCD smartie, take the 32bit DLL (in \Win32) and rename it to DLPortIO.dll
+
+Copy this DLL to your LCD Smartie folder and then give LCDSmartie a go.
+I know that LCD Smartie loads the DLL and talks to it properly - I'm just unsure if it reads/writes the port.
+
+Let me know if you have any problems.
+
+Thanks,
+Phil (Phil@Highrez.co.uk)

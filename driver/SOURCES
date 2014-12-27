@@ -1,0 +1,21 @@
+#
+# setup visualC++ source browsing
+#
+BSCMAKE_FLAGS=$(BSCMAKE_FLAGS) -n
+
+
+
+!if $(AMD64)
+! message BUILDMSG: Info : Building amd64 Inpoutx64.sys
+TARGETNAME=inpoutx64
+!else
+!message BUILDMSG: Info : Building i386 Inpout32.sys
+TARGETNAME=inpout32
+!endif
+
+_NT_TARGET_VERSION = 0x0500
+TARGETPATH=obj
+TARGETTYPE=DRIVER
+INCLUDES=..\
+
+SOURCES=hwinterfacedrv.c hwinterfacedrv.rc

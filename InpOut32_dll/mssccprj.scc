@@ -1,0 +1,9 @@
+SCC = This is a Source Code Control file
+
+[inpout32drv.sln]
+SCC_Aux_Path = "\\loft\sourcesafe"
+SCC_Project_Name = "$/inpout32drv.root/inpout32drv", QTGAAAAA
+
+[inpout32drv.vcproj]
+SCC_Aux_Path = "\\loft\sourcesafe"
+SCC_Project_Name = "$/inpout32drv.root/inpout32drv", QTGAAAAA
